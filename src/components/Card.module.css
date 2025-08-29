@@ -1,0 +1,27 @@
+.card {
+  width: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.cardImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* keeps all images the same size */
+}
+
+.cardContent {
+  padding: 12px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.cardDescription {
+  font-size: 0.95rem;
+  color: #555;
+}
