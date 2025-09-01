@@ -13,13 +13,13 @@ function Home() {
       <Title text="Featured Cards" />
 
        <SlideCard
-        image1="/pexels-asadphoto-169185.jpg"
+        image1="https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg"
         title1="First Slide"
         description1="This is the first slide description."
-        image2="/pexels-change-c-c-974768353-32689482.jpg"
+        image2="https://images.pexels.com/photos/20151736/pexels-photo-20151736.jpeg"
         title2="Second Slide"
         description2="This is the second slide description."
-        image3="/pexels-nano-erdozain-120534369-20151736.jpg"
+        image3="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg"
         title3="Third Slide"
         description3="This is the third slide description."
       />
@@ -46,6 +46,26 @@ function Home() {
           </p>
         </div>
         <div className={styles.cardSection}>
+          <Card
+            image="/245yohNN.jpg"
+            title="Card One"
+            description="This is the first simple card."
+          />
+        </div>
+
+       
+        <div className={styles.transparentCard}>
+          <h3>See-Through Card</h3>
+          <p>
+            This card has a transparent glass-like effect. You can add any
+            description here to highlight something special or provide
+            additional context.
+            This card has a transparent glass-like effect. You can add any
+            description here to highlight something special or provide
+            additional context.
+          </p>
+        </div>
+         <div className={styles.cardSection}>
           <Card
             image="/245yohNN.jpg"
             title="Card One"
