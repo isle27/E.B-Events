@@ -1,0 +1,40 @@
+.container{
+    margin-top: 200px;
+}
+
+
+.cardRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px; 
+  margin-top: 20px;
+  justify-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.cardSection {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.transparentCard {
+  flex: 1;
+  padding: 10px;
+  width: 700px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 70px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  border: 1px solid rgba(233, 207, 62, 0.18);
+    margin-bottom: 40px;
+
+}
+.transparentCard:hover{
+    box-shadow: 0 8px 32px 0 rgba(226, 204, 105, 0.37);
+}
