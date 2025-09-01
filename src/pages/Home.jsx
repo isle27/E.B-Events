@@ -27,7 +27,7 @@ function Home() {
       <div className={styles.cardRow}>
         <div className={styles.cardSection}>
           <Card
-            image="/245yohNN.jpg"
+            image="https://i.pinimg.com/736x/99/91/c2/9991c20d1b47768922bcf8bd0e3c3acf.jpg"
             title="Card One"
             description="This is the first simple card."
           />
@@ -47,7 +47,7 @@ function Home() {
         </div>
         <div className={styles.cardSection}>
           <Card
-            image="/245yohNN.jpg"
+            image="https://i.pinimg.com/736x/75/48/ac/7548acc6d4c49c49edd7dd203f125f24.jpg"
             title="Card One"
             description="This is the first simple card."
           />
@@ -67,7 +67,7 @@ function Home() {
         </div>
          <div className={styles.cardSection}>
           <Card
-            image="/245yohNN.jpg"
+            image="https://i.pinimg.com/1200x/04/3f/5e/043f5eff2793f0026d85b9a7b9647891.jpg"
             title="Card One"
             description="This is the first simple card."
           />
@@ -87,7 +87,7 @@ function Home() {
         </div>
          <div className={styles.cardSection}>
           <Card
-            image="/245yohNN.jpg"
+            image="https://i.pinimg.com/736x/72/06/e5/7206e5967afa233a716bafc8617168ba.jpg"
             title="Card One"
             description="This is the first simple card."
           />

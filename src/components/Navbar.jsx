@@ -8,12 +8,12 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src={Logo} alt="Logo" />
+        <Link to="/" ><img src={Logo} alt="Logo" /></Link>
       </div>
       <div className={styles.buttonSec}>
         <Link to="/"><Button text="Home" /></Link>
         <Link to="/AboutUs"><Button text="About Us" /></Link>
-        <Link to="/OurService"><Button text="Our Service" /></Link>
+        <Link to="/Service"><Button text="Our Service" /></Link>
         <Link to="/BookUs"><Button text="Book Us" /></Link>
       </div>
     </nav>

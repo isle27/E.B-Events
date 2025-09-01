@@ -1,0 +1,64 @@
+
+
+.serviceContainer {
+  max-width: 1200px;
+  margin-top: 200px;
+  margin-left: 60px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+}
+
+.header .description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #F8F4E3;
+  margin-left: 40px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.servicesSection,
+.pastWorkSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.finalDescription {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #F8F4E3;
+  padding: 1.5rem;
+  border-top: 1px solid #F8F4E3;
+  margin-left: 40px;
+}
+
+.cardsGrid > * {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardsGrid > *:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
