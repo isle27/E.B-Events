@@ -85,6 +85,26 @@ function Home() {
             additional context.
           </p>
         </div>
+         <div className={styles.cardSection}>
+          <Card
+            image="/245yohNN.jpg"
+            title="Card One"
+            description="This is the first simple card."
+          />
+        </div>
+
+       
+        <div className={styles.transparentCard}>
+          <h3>See-Through Card</h3>
+          <p>
+            This card has a transparent glass-like effect. You can add any
+            description here to highlight something special or provide
+            additional context.
+            This card has a transparent glass-like effect. You can add any
+            description here to highlight something special or provide
+            additional context.
+          </p>
+        </div>
       </div>
     </div>
   );
