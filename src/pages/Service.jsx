@@ -21,17 +21,17 @@ function Service() {
           <Card 
             title="Weddings" 
             description="Planning every detail of your special day to perfection." 
-            imageUrl="/images/wedding.jpg" 
+            image="https://i.pinimg.com/1200x/1b/9c/47/1b9c47e805caee98125fa93476484f88.jpg" 
           />
           <Card 
             title="Corporate Events" 
             description="Professional and seamless events for businesses." 
-            imageUrl="/images/corporate.jpg" 
+            image="https://i.pinimg.com/1200x/5d/9e/af/5d9eaf182108df7c98595d438fcb9ae2.jpg" 
           />
           <Card 
             title="Private Parties" 
             description="Celebrating milestones and moments with style." 
-            imageUrl="/images/party.jpg" 
+            image="https://i.pinimg.com/1200x/a1/25/f7/a125f7e2ad20e39519f58d310e2ed886.jpg" 
           />
         </div>
       </section>
@@ -42,22 +42,21 @@ function Service() {
           <Card 
             title="Elegant Wedding" 
             description="A beautiful ceremony with timeless details." 
-            imageUrl="/images/past1.jpg" 
+            image="https://i.pinimg.com/736x/78/d9/69/78d9693f90c86b5b51c728bb45d65b5f.jpg" 
           />
           <Card 
             title="Corporate Gala" 
             description="A sophisticated event for top executives." 
-            imageUrl="/images/past2.jpg" 
+            image="https://i.pinimg.com/736x/78/b5/56/78b556fc5b6b00275657bb67e39e813f.jpg" 
           />
           <Card 
             title="Birthday Celebration" 
             description="Fun and memorable birthday events." 
-            imageUrl="/images/past3.jpg" 
+            image="https://i.pinimg.com/1200x/df/a2/77/dfa2778c06727d399b8391583de38231.jpg" 
           />
         </div>
       </section>
 
-      {/* Final Short Description */}
       <section className={styles.finalDescription}>
         <p>
           Our dedication to creativity, precision, and elegance ensures every event we plan is unforgettable. Let EverBloom Events bring your vision to life.
