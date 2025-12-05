@@ -3,7 +3,7 @@ import styles from "./BookUs.module.css";
 import Card from "../components/Card";
 import BookingForm from "../components/BookForm";
 import E from "../assets/e.png"
-
+//booking page
 const BookUs = () => {
   const [selectedService, setSelectedService] = useState(null);
 
