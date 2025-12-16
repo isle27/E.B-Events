@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import Title from "../components/Title";
 import styles from "./AboutUs.module.css";
-
+//about page
 function AboutUs() {
   return (
     <div className={styles.aboutContainer}>
