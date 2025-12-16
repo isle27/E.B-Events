@@ -2,10 +2,11 @@
 .aboutContainer {
   max-width: 1200px;
   margin-top: 200px;
-  margin-left: 70px;
   padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 3rem;
   font-family: 'Arial', sans-serif;
   color: #333;
@@ -27,9 +28,12 @@
   gap: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .cardsSection {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .aboutContainer{
+    justify-content: center;
   }
 }
 

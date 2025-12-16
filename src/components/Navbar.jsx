@@ -11,6 +11,7 @@ function Navbar() {
         <Link to="/" ><img src={Logo} alt="Logo" /></Link>
       </div>
       <div className={styles.buttonSec}>
+        
         <Link to="/"><Button text="Home" /></Link>
         <Link to="/AboutUs"><Button text="About Us" /></Link>
         <Link to="/Service"><Button text="Our Service" /></Link>

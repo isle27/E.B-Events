@@ -29,3 +29,39 @@
   gap: 1rem;
 }
 
+
+
+@media (max-width: 800px) {
+  .navbar {
+    height: 80px;
+    padding: 10px 16px;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .logo img {
+    height: 140px;
+  }
+
+  .buttonSec {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .navbar {
+    height: 80px;
+    padding: 8px 12px;
+  }
+
+  .logo img {
+    height: 130px;
+  }
+
+  .buttonSec {
+    gap: 0.1rem;
+    font-size: 5px;
+  }
+}
